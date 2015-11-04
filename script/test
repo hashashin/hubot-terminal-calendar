@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# bootstrap environment
+source script/bootstrap
