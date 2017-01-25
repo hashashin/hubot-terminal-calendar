@@ -1,7 +1,7 @@
 {
   "name": "hubot-terminal-calendar",
   "description": "A hubot script that displays the Linux shell calendar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "BrianSipple <Bsipple57@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-terminal-calendar",
