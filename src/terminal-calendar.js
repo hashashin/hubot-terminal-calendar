@@ -29,7 +29,7 @@ module.exports = (jarvis) => {
     for (var regExp of REG_EXPS.calendar.currentMonth) {
         jarvis.respond(regExp, (msg) => {
             childProcess.exec('ncal -hMb', (error, stdout, stderr) => {
-                msg.send(stdout);
+                msg.send("""#{stdout}""");
             });
         });
     }
